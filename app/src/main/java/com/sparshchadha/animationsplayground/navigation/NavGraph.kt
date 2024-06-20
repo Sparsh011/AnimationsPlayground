@@ -8,6 +8,7 @@ import androidx.navigation.fragment.fragment
 import com.sparshchadha.animationsplayground.fragments.AnimationsTestingFragment
 import com.sparshchadha.animationsplayground.fragments.HomeFragment
 import com.sparshchadha.animationsplayground.fragments.PlantDetailsFragment
+import com.sparshchadha.animationsplayground.fragments.PlantImageFragment
 
 object NavGraph {
     fun getNavGraph(
@@ -21,15 +22,16 @@ object NavGraph {
                 label = "Home"
             }
 
-            fragment<PlantDetailsFragment>("${nav_routes.plant_detail}/{${nav_arguments.plant_id}}") {
+            fragment<PlantDetailsFragment>(nav_routes.plant_detail) {
                 label = "Plant details"
-                argument(nav_arguments.plant_id) {
-                    type = NavType.StringType
-                }
             }
 
             fragment<AnimationsTestingFragment>(nav_routes.animations_testing) {
                 label = "Test Animations Here"
+            }
+
+            fragment<PlantImageFragment>(nav_routes.plant_image_fragment) {
+                label = "Blue Orchids Image"
             }
         }
     }
