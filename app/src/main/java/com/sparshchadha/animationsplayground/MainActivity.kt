@@ -1,7 +1,6 @@
 package com.sparshchadha.animationsplayground
 
 import android.os.Bundle
-import android.view.Window
 import android.view.WindowManager
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
