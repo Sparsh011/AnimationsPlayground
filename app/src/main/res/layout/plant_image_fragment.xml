@@ -5,10 +5,15 @@
     android:background="@color/white"
     >
 
-    <ImageView
-        android:id="@+id/blue_orchid_image"
+<!--    <ImageView-->
+<!--        android:id="@+id/blue_orchid_image"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        />-->
+
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/plant_details_root_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
+        android:layout_height="match_parent"/>
 
 </FrameLayout>

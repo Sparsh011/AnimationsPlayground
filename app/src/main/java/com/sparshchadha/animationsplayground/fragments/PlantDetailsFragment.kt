@@ -67,18 +67,11 @@ class PlantDetailsFragment : Fragment(R.layout.plant_details_fragment) {
                             .padding(10.dp)
                     )
 
-//                    Image(
-//                        painter = painterResource(id = R.drawable.flower_image),
-//                        contentDescription = null,
-//                        modifier = Modifier
-//                            .fillMaxWidth()
-//                            .height(300.dp)
-//                    )
-
                     AndroidView(
                         factory = {
                             ImageView(it).apply {
                                 this.setImageResource(R.drawable.flower_image)
+                                this.transitionName = "plant_image"
                                 this.setOnClickListener {
                                     ViewCompat.setTransitionName(this, "plant_image")
                                     NavigationProvider.navigateToPlantImageScreen(
