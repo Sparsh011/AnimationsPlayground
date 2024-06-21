@@ -1,4 +1,4 @@
-package com.sparshchadha.animationsplayground.fragments
+package com.sparshchadha.animationsplayground.fragments.animations_test
 
 import android.os.Bundle
 import android.view.View

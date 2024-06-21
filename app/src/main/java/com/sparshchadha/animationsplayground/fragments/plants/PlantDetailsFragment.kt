@@ -1,4 +1,4 @@
-package com.sparshchadha.animationsplayground.fragments
+package com.sparshchadha.animationsplayground.fragments.plants
 
 import android.os.Bundle
 import android.view.View
@@ -28,7 +28,7 @@ import androidx.core.view.ViewCompat
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.sparshchadha.animationsplayground.R
-import com.sparshchadha.animationsplayground.compose_components.AnimationsPlaygroundTopBar
+import com.sparshchadha.animationsplayground.common_composables.AnimationsPlaygroundTopBar
 import com.sparshchadha.animationsplayground.navigation.NavigationProvider
 import com.sparshchadha.animationsplayground.utils.Dimensions
 

@@ -1,4 +1,4 @@
-package com.sparshchadha.animationsplayground.compose_components
+package com.sparshchadha.animationsplayground.common_composables
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

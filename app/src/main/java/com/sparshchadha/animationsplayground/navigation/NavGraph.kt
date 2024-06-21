@@ -2,13 +2,12 @@ package com.sparshchadha.animationsplayground.navigation
 
 import androidx.navigation.NavController
 import androidx.navigation.NavGraph
-import androidx.navigation.NavType
 import androidx.navigation.createGraph
 import androidx.navigation.fragment.fragment
-import com.sparshchadha.animationsplayground.fragments.AnimationsTestingFragment
-import com.sparshchadha.animationsplayground.fragments.HomeFragment
-import com.sparshchadha.animationsplayground.fragments.PlantDetailsFragment
-import com.sparshchadha.animationsplayground.fragments.PlantImageFragment
+import com.sparshchadha.animationsplayground.fragments.animations_test.AnimationsTestingFragment
+import com.sparshchadha.animationsplayground.fragments.home.HomeFragment
+import com.sparshchadha.animationsplayground.fragments.plants.PlantDetailsFragment
+import com.sparshchadha.animationsplayground.fragments.plants.PlantImageFragment
 
 object NavGraph {
     fun getNavGraph(
